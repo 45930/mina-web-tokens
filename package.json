@@ -1,0 +1,27 @@
+{
+  "name": "mina-web-tokens",
+  "version": "0.1.0",
+  "description": "Token authentication for ZkApps on Mina",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/45930/mina-web-tokens.git"
+  },
+  "keywords": [
+    "mina",
+    "zk",
+    "zkapps"
+  ],
+  "author": "45930",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/45930/mina-web-tokens/issues"
+  },
+  "homepage": "https://github.com/45930/mina-web-tokens#readme"
+}
