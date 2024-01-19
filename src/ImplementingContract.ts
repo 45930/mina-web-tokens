@@ -8,8 +8,13 @@ class MyContractToken extends Struct({
   scope: Field
 }) { }
 
-class ImplementingContract extends SmartContract {
+export class ImplementingContract extends SmartContract {
   @state(Field) x = State<Field>();
+
+  init() {
+    super.init();
+    this.x.set(Field(0));
+  }
 
   @method
   increment(user: PublicKey, token: Signature, tokenData: MyContractToken) {
