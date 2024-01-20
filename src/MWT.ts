@@ -1,4 +1,4 @@
-import { Field, PrivateKey, PublicKey, Signature, Struct, UInt64 } from "o1js";
+import { Field, PrivateKey, PublicKey, Signature, UInt64 } from "o1js";
 
 export type MWTData = {
   iss: PublicKey,
