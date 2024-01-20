@@ -19,5 +19,5 @@
     "noFallthroughCasesInSwitch": true,
     "allowSyntheticDefaultImports": true
   },
-  "include": ["./src", "tests/ImplementingContract.ts"]
+  "include": ["./src", "tests/integration/ImplementingContract.ts"]
 }

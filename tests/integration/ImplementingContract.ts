@@ -1,5 +1,5 @@
 import { Field, PublicKey, Signature, SmartContract, State, Struct, UInt64, method, state } from "o1js";
-import { MWT } from "../src/MWT";
+import { MWT } from "../../src/MWT";
 
 class MyContractToken extends Struct({
   iss: PublicKey,

@@ -1,6 +1,6 @@
 import { AccountUpdate, Field, Mina, PrivateKey, PublicKey, UInt64 } from 'o1js';
 import { ImplementingContract } from './ImplementingContract.js';
-import { MWT } from '../src/MWT.js';
+import { MWT } from '../../src/MWT.js';
 
 describe('ImplementingContract', () => {
   let zkApp: ImplementingContract,
